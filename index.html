@@ -329,7 +329,7 @@
                 document.getElementById('contactForm').submit();
 
                 // Contact: Send to mail
-                var emailBody = "Full Name: " + fullName.value + "\nEmail: " + email.value + "\nPhone Number: " + phoneNumber.value + "\nSubject: " + subject.value + "\n\nMessage: " + message;
+                var emailBody = "Full Name: " + fullName.value + "\nEmail: " + email.value + "\nPhone Number: " + phoneNumber.value + "\nSubject: " + subject.value + "\n\nMessage: " + message.value;
 
                 var emailLink = 'mailto:pvkhanh2609@gmail.com?subject=' + encodeURIComponent(subject.value) + '&body=' + encodeURIComponent(emailBody);
                 window.location.href = emailLink;
