@@ -26,7 +26,7 @@ body {
     color: var(--text-color);
 }
 p {
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 .header {
@@ -480,7 +480,7 @@ span {
     font-size: 2.8rem;
 }
 .testimonial-item p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 #star {
     color: gold;
@@ -574,6 +574,20 @@ span {
     text-align: center;
     font-size: 16px;
     color: white;
+}
+
+.contact form .input-box input.input-success {
+    border: 2px solid green;
+}
+
+.contact form .input-box input.input-error {
+    border: 2px solid red;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
 }
 
 @media(max-width: 1285px) {
